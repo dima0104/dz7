@@ -1,0 +1,72 @@
+html {
+    background-color: #008cff;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+body {
+    border: 3px solid rgb(63, 63, 121);
+    border-radius: 10px;
+    background-color: #4299e1;
+    height: 90%;
+    margin: 0;
+    margin-top: 2%;
+    width: 80%;
+    
+}
+label {
+    color: black;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+#inp {
+    height: 40px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+button {
+    height: 40px;
+    margin: 0;
+    border: 3px solid black;
+    border-radius: 3px ;
+    background-color: #1a202c ;
+    color: white;
+}
+button:hover{
+    background-color: #3d485f;
+}
+.ContainForInp {
+    font-size: 0;
+    
+    display: inline-block;
+}
+.ContainForForm {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.ContainForTemp_FL ,.ContainForClouds  {
+    font-size: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ContainForImg {
+    width: 200px;
+}
+.divinfo {
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.icon {
+    height: 100px;
+    width: 100px;
+}
